@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+        <parameter name="url" value="https://login.yahoo.com/?.intl=ca"/>
+        <parameter name="emailid" value="test@yahoo.com">
+        
+        </parameter>
+    <classes>
+      <class name="TestNG.GoogleTest"/>
+      <class name="TestNG.InvocationCountTest"/>
+      <class name="parametersTestng.ParameterTest"/>
+      
+
+      <class name="TestNG.TestNgBasics"/>
+      <class name="TestNG.ExceptionTimeOutTest"/>
+      <class name="TestNG.TestNgFeatures"/>
+      <class name="TestNG.GoogleTitleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

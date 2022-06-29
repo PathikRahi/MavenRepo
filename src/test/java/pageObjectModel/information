@@ -1,0 +1,8 @@
+POM= page object model=Design pattern+data driven framework+testNg
+Advantages: maintaining and managing all page objects
+identification and action class divide in different class
+we can divide operation method in one class, identification method in another class
+
+if we have 100 different pages(login page, registration, home, search, addtoCart, PaymentPage) then we need to create 100 java class.
+1.webElemnt define in all java classes.
+2. define Action/Methods-features

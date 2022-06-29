@@ -1,0 +1,6 @@
+what is log?: captureing info/activities at the time of program execution
+Types: info, warn, error, fatal
+
+How to generate log?: use APache log4j API
+How it works?: it reads log4j configuration from log4j.properties file
+where to create: create inside resources folder
